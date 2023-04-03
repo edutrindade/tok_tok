@@ -1,9 +1,14 @@
 import { useState, useRef } from 'react';
+import { VideoProps } from '../../interfaces/VideoProps';
+import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 
 import './styles.css'
 
-function Video() {
+
+function Video(props: VideoProps) {
+    const { url, likes, messages, shares, name, description, music } = props;
+
     const videoRef = useRef<HTMLVideoElement>(null);
     const [play, setPlay] = useState(false);
 
@@ -21,13 +26,13 @@ function Video() {
         <div className="video">
             <video
                 className="video_player"
-                src="https://firebasestorage.googleapis.com/v0/b/jornada2-eb156.appspot.com/o/ZqU6oFX6.mp4.mp4?alt=media&token=9839e872-2d5e-4da3-9299-17eb2949831d"
+                src={url}
                 ref={videoRef}
                 loop
                 onClick={handleStart}
             />
-
-            <Footer />
+            <Sidebar likes={likes} messages={messages} shares={shares} />
+            <Footer name={name} description={description} music={music} />
         </div>
     )
 }

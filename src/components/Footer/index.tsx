@@ -1,17 +1,19 @@
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import './styles.css'
+import { VideoFooterProps } from '../../interfaces/VideoProps';
 
-function Footer() {
+function Footer(props: VideoFooterProps) {
+    const { name, description, music } = props;
 
     return (
         <div className='footer'>
             <div className='video_info'>
-                <h3>@eduardoactrindade</h3>
-                <p>Descrição do Vídeo</p>
+                <h3>{name}</h3>
+                <p>{description}</p>
                 <div className='row'>
                     <MusicNoteIcon className="icon" />
                     <div className="info">
-                        <p>Título da música</p>
+                        <p>{music}</p>
                     </div>
                 </div>
             </div>
