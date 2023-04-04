@@ -21,6 +21,6 @@ Siga as configurações adequadas de acordo com a documentação.
 Para deploy da aplicação: `firebase deploy`
 
 ![Projeto Prático IV](https://uploaddeimagens.com.br/images/004/417/159/full/tela1.png?1680579279)
-![Projeto Prático IV](https://uploaddeimagens.com.br/images/004/417/157/full/tela3.png?1680579162)
 ![Projeto Prático IV](https://uploaddeimagens.com.br/images/004/417/158/full/tela2.png?1680579227)
+![Projeto Prático IV](https://uploaddeimagens.com.br/images/004/417/157/full/tela3.png?1680579162)
 ![Projeto Prático IV](https://uploaddeimagens.com.br/images/004/417/160/full/tela4.png?1680579437)
