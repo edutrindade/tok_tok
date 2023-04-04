@@ -20,6 +20,8 @@ Siga as configurações adequadas de acordo com a documentação.
 
 Para deploy da aplicação: `firebase deploy`
 
+Veja como ficou: https://tok-tok-4aee3.web.app/ 😉
+
 ![Projeto Prático IV](https://uploaddeimagens.com.br/images/004/417/159/full/tela1.png?1680579279)
 ![Projeto Prático IV](https://uploaddeimagens.com.br/images/004/417/158/full/tela2.png?1680579227)
 ![Projeto Prático IV](https://uploaddeimagens.com.br/images/004/417/157/full/tela3.png?1680579162)
