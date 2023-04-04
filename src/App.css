@@ -31,7 +31,7 @@ code {
 
 .videos {
   height: 100vh;
-  max-height: 800px;
+  max-height: 900px;
   width: 80%;
   max-width: 500px;
   border: 1px solid #333;
@@ -41,22 +41,23 @@ code {
   position: relative;
 }
 
-// Esconder a scrollbar no Chrome, Safari e Opera
+/* Esconder a scrollbar no Chrome, Safari e Opera */
 .videos::-webkit-scrollbar {
   display: none;
 }
 
-// Esconder a scrollbar no IE, Edge, e no Firefox
+/* Esconder a scrollbar no IE, Edge, e no Firefox */
 .videos {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .videos {
-    width: 90%;
-    height: 90vh;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0px;
+    /* margin-top: 20px;
+    margin-bottom: 25px; */
   }
 }

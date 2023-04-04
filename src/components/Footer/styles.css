@@ -55,9 +55,9 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px and max-height: 780px) {
     .footer {
-      bottom: 20%;
+      bottom: 18%;
     }
     .info {
         width: 75%;
@@ -66,7 +66,25 @@
 
 @media only screen and (max-height: 680px) {
     .footer {
+      bottom: 22%;
+    }
+    .info {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-height: 800px and min-height: 681px) {
+    .footer {
       bottom: 25%;
+    }
+    .info {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-height: 950px and min-height: 801px) {
+    .footer {
+      bottom: 20%;
     }
     .info {
         width: 75%;
