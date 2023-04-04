@@ -55,6 +55,8 @@ code {
 @media (max-width: 480px) {
   .videos {
     width: 90%;
-    margin-bottom: 30px;
+    height: 90vh;
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
 }

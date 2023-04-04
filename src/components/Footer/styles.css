@@ -60,6 +60,15 @@
       bottom: 20%;
     }
     .info {
-        width: 78%;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-height: 680px) {
+    .footer {
+      bottom: 25%;
+    }
+    .info {
+        width: 75%;
     }
 }
